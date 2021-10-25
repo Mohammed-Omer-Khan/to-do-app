@@ -371,7 +371,7 @@ const Tasks = (props) => {
                 </div>
               </Col>
               <Col className="ant-col-24" md={8}>
-                <div onMouseOut={() => { highlightDropArea('in-progress', false) }} onDragLeave={() => { highlightDropArea('in-progress', false) }} onDragEnter={() => { highlightDropArea('in-progress', true) }} onDragOver={(e) => {highlightDropArea('in-progress', true);onDragOver(e)}} onDrop={(e) => { onDrop(e, "InProgress") }} className="status-div">
+                <div onMouseOut={() => { highlightDropArea('in-progress', false) }} onDragLeave={() => { highlightDropArea('in-progress', false) }} onDragEnter={() => { highlightDropArea('in-progress', true) }} onDragOver={(e) => {highlightDropArea('in-progress', true);onDragOver(e)}} onDrop={(e) => { highlightDropArea('in-progress', false); onDrop(e, "InProgress") }} className="status-div">
                   <Row>
                     <Col className="ant-col-24" md={24}>
                       <div className="status-heading" style={{ borderTop: "solid 3px #86aef7" }}>
@@ -404,7 +404,7 @@ const Tasks = (props) => {
                 </div>
               </Col>
               <Col className="ant-col-24" md={8}>
-                <div  onMouseOut={() => { highlightDropArea('completed', false) }} onDragLeave={() => { highlightDropArea('completed', false) }} onDragEnter={() => { highlightDropArea('completed', true) }} onDragOver={(e) => {highlightDropArea('completed', true); onDragOver(e)}} onDrop={(e) => { onDrop(e, "Completed") }} className="status-div">
+                <div  onMouseOut={() => { highlightDropArea('completed', false) }} onDragLeave={() => { highlightDropArea('completed', false) }} onDragEnter={() => { highlightDropArea('completed', true) }} onDragOver={(e) => {highlightDropArea('completed', true); onDragOver(e)}} onDrop={(e) => { highlightDropArea('completed', false); onDrop(e, "Completed") }} className="status-div">
                   <Row>
                     <Col className="ant-col-24" md={24}>
                       <div className="status-heading" style={{ borderTop: "solid 3px #62bc70" }}>
