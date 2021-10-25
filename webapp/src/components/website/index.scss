@@ -1,0 +1,30 @@
+.open-check {
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #86aef7;
+        border-color: #86aef7;
+      }
+}
+
+.progress-check {
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #59ca6f;
+        border-color: #59ca6f;
+      }
+
+      .ant-checkbox-disabled .ant-checkbox-inner {
+        background-color: #86aef7;
+        border-color: #86aef7 !important;
+    }
+}
+
+.completed-check {
+  .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #59ca6f;
+      border-color: #59ca6f;
+    }
+
+    .ant-checkbox-disabled .ant-checkbox-inner {
+      background-color: #59ca6f;
+      border-color: #59ca6f !important;
+  }
+}
